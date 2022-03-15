@@ -1,8 +1,35 @@
 /*
+==============
+    Fonts
+==============
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+/*
+================ 
+    Variables
+================
+*/
+
+:root {
+    --clr-primary-1: #70c6d1;
+    --clr-primary-2: #f6efed;
+    --ff-primary: "Inter", sans-serif;
+}
+
+
+/*
 ===================== 
     Global Styles
 =====================
 */
+
+header {
+    font-size: 3rem;
+    font-family: var(--ff-primary);
+    color: var(--clr-primary-2);
+}
 
 img {
     object-fit: cover;
